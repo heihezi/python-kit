@@ -12,7 +12,7 @@ def listdir(path):
              rasterfiles.append(file_path)
     return rasterfiles
 
-sourdir = 'E:/Work/data/hufu/raster'
+sourdir = 'D:/tif/yunnan'
 
 def buildoverview(sourdir):
     rasterfiles = listdir(sourdir)
